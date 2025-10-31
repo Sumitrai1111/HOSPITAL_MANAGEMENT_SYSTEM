@@ -10,6 +10,7 @@ import userRouter from "./route/userRouter.js";
 import appointmentRouter from "./route/appointmentRouter.js";
 
 const app = express();
+
 config({ path: "./config/config.env" });
 
 /* Configuring the cross platform between frontend and backend */
